@@ -1,0 +1,10 @@
+version: '3.11'
+
+services:
+  bot:
+    build: .
+    container_name: asadmaxmud_bot
+    command: /opt/venv/bin/python bot.py
+    volumes:
+      - .:/app
+    working_dir: /app
