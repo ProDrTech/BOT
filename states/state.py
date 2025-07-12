@@ -7,7 +7,10 @@ class Register(StatesGroup):
 
 class Feedback(StatesGroup):
     feedback = State()
-    
+
+
+class AIChat(StatesGroup):
+    chatting = State()
     
 class NameChange(StatesGroup):
     name = State()

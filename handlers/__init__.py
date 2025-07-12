@@ -10,6 +10,6 @@ from . import feedback
 from . import order
 from . import about
 from . import myprofile
-
+from . import ai
 from . import unnecessary
-from users import gemini
+from .users import gemini

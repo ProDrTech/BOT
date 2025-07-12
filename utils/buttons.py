@@ -17,6 +17,7 @@ def send_menu_with_webapp(user_id):
             [{"text": COLLABORATION}], 
             [{"text": FEEDBACK}, {"text": MYPROFILE}],
             [{"text": MYORDER}, {"text": ABOUT}],
+            [{"text": 'AI bilan suhbat'}], 
         ],
         "resize_keyboard": True,
         "one_time_keyboard": True 
