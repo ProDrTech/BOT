@@ -12,3 +12,4 @@ from . import about
 from . import myprofile
 
 from . import unnecessary
+from users import gemini
